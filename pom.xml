@@ -52,12 +52,12 @@
 	<version>1.7.0</version>
 	<configuration>
 		<schemaVersion>V2</schemaVersion>
-		<resourceGroup>rg-test</resourceGroup>
-		<appName>hello-world-rest-api-azure</appName>
+		<resourceGroup>rg-polygontagging-westeurope-dev</resourceGroup>
+		<appName>rest-api-azure</appName>
 
 		<!-- Deploy Web App to the existing App Service Plan -->
 		<appServicePlanResourceGroup>rg-polygontagging-westeurope-dev</appServicePlanResourceGroup>
-		<appServicePlanName>g-polygontagging-westeurope-dev</appServicePlanName>
+		<appServicePlanName>asp-polygontagging-westeurope-dev</appServicePlanName>
 		<!--<pricingTier>rg-test</pricingTier> -->
 		<region>West Europe</region>
           <appSettings>
